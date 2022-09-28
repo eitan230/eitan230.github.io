@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador_style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body id="fondo">
+    <header>
+        <div class="logo">
+            <img src="logo_alura.png" alt="Logo de Eitan" class="logo">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div><textarea cols="80" rows="30" id="mensaje1" placeholder="Ingrese el texto a encriptar  aqui"></textarea></div>
+            <div>
+                <button class="encriptar" onclick="buttonEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="buttonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div><textarea cols="40" rows="30" id="mensaje2" class="textareaDes" placeholder="No se ha encontrado ningun mensaje"></textarea></div>
+            <div><button class="copyButton" onclick="copy()">Copiar</button></div>
+        </section>
+
+    </main>
+    <footer class="encabezado">
+        <p>Sitio web creado por Eitan, proyecto del curso de desarrollo web de Oracle One next education, en conjunto de Alura latam y Oracle</p>
+        <div class="iconos">
+            <a href="https://www.instagram.com/eitanyberbuden/?next=%2F" class=" icon icon-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/eitan-sanabria-yberbuden-3b1a16237" class=" icon icon-linkedin" target="_blank"></a>
+            <a href="https://www.instagram.com/eitanyberbuden/?next=%2F" class=" icon icon-github" target="_blank"></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
