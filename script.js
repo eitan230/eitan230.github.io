@@ -1,6 +1,6 @@
 
-let texto_encriptar = document.querySelector("#mensaje1");
-let texto_encriptado = document.querySelector("#mensaje2");
+let texto_encriptar = document.querySelector(".mensaje1");
+let texto_encriptado = document.querySelector(".mensaje2");
 
 function encriptarTexto(string_encriptar){
     let letras = [["e","enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
